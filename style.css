@@ -1,0 +1,120 @@
+/* Colors and font */
+
+body {
+  background-color:#D3DEDC;
+  color:#2C3333;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1,2;
+
+}
+
+h1, h2{
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+
+  font-weight: bold;
+  font-size: 35px;
+  color: #FC4F4F;
+}
+
+h2{
+
+  font-weight: lighter;
+  font-size: 25px;
+  color:#495371;
+
+}
+
+a{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #FC4F4F;
+  font-weight: bold;
+}
+
+a:hover {
+  font-family: 'Poppins', sans-serif
+  color:#470D21;
+  font-size: bold;
+}
+
+
+/* Custom design with class */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white{
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 30px darkgrey;
+  border-radius: 5px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-red{
+  background-color: #FC4F4F;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.btn-red:hover{
+  background-color: #2C3333;
+  color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+.list-inline i:hover {
+  font-size: 50px;
+  color: #2C3333;
+}
+
+#introduction p{
+  margin-bottom: 30px;
+
+}
+
+
